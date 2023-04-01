@@ -24,12 +24,15 @@ const Home = () => {
       setLoading(true);
 
       try {
-        const response = await fetch("http://localhost:8080/api/v1/post", {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
+        const response = await fetch(
+          "https://dall-e-clone-mx-version.onrender.com/api/v1/post",
+          {
+            method: "GET",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        );
 
         if (response.ok) {
           const result = await response.json();
@@ -71,7 +74,7 @@ const Home = () => {
       <p className="mb-2 text-[#6449ff] text-[16px] text-center">
         by{" "}
         <a
-          href="https://twitter.com/home"
+          href="https://twitter.com/carlosdosbe"
           className="text-violet-800 underline"
           target="_blank"
         >

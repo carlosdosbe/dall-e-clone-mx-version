@@ -11,7 +11,6 @@ const App = () => {
           <h1 className="font-extrabold text-[32px] text-[#6449ff]">
             Dall-E MX
           </h1>
-          <img src={logo} alt="logo" className="w-28 object-contain" />
         </Link>
 
         <Link

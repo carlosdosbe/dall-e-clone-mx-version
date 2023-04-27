@@ -74,7 +74,7 @@ const Home = () => {
       <p className="mb-2 text-[#6449ff] text-[16px] text-center">
         by{" "}
         <a
-          href="https://twitter.com/carlosdosbe"
+          href="https://www.linkedin.com/in/carlos-daniel-osoriob/"
           className="text-violet-800 underline"
           target="_blank"
         >
